@@ -3,18 +3,16 @@ function happyHolidays() {
   return 'Happy holidays!';
 }
 
-/*function happyHolidaysTo(name) {
-  return 'Happy holidays, ${name}!';
-}*/
-
 function happyHolidaysTo(name){
   return `Happy holidays, ${name}!`;
 }
 
 function happyHolidayTo (holiday, name) {
-  return 'Happy ${holiday},';
+  return `Happy ${holiday},`;
 }
 
 function holidayCountdown (holiday, days) {
-  return 'It\'s ${days} days until ${holiday}!';
+  return `It\'s ${days} days until ${holiday}!`;
 }
+
+//have to use ` back ticks unstead of '' 
